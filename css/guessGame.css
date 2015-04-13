@@ -1,0 +1,115 @@
+* {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+
+}
+
+*:focus {
+	outline: 0;
+}
+
+body {
+	background: black;
+	top: 100px;
+	font-family: monospace;
+}
+
+#question {
+	top: 100px;
+}
+
+#question p {
+	color: white;
+	font-size: 5em;
+	text-align: center;
+	
+}
+
+#guess {
+	background: rgba(255, 255, 255, 0.3);
+	border: none;
+	margin: 0 auto auto 0;	
+	padding: 0 auto 0;
+	color: white;
+	width: 10em;
+}
+
+#guess:focus {
+	border: none;
+}
+
+
+/*text inside placeholder*/
+::-webkit-input-placeholder {
+	color: white;
+}
+
+#getGuess {
+	width: 10em;
+	border-radius: 0;
+	padding: 0 0 0 0;
+	border: none;
+	background: rgba(255, 255, 255, 0.5);
+	color: white;
+}
+
+#getGuess:hover {
+	background: rgba(255, 255, 255, 0.4);
+	color: white;
+}
+
+#getGuess:focus {
+	border: none;
+}
+
+.usrGuess {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+	top: 50vh;
+	width: 10em;
+}
+
+
+#answers {
+	color: #c6c6c6;
+	font-size: 1.5em;
+	text-align: center;
+	list-style: none;
+
+}
+
+.correctAnswers {
+	font-size: 1.5em;
+	margin-left: 7em;
+	color: #00FF00;
+	list-style: none;
+}
+
+.correctAnswers li {
+	padding-bottom: 1em;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+#playAgain {
+	width: 10em;
+	border-radius: 0;
+	padding: 0 0 0 0;
+	border: none;
+	background: rgba(255, 255, 255, 0.7);
+	color: #1374F2;
+	outline: none;
+}
+
+#playAgain:focus {
+	outline: none;
+}
+
+#playAgain:hover {
+	background: rgba(255, 255, 255, 0.6);
+	color: #1374F2;
+}

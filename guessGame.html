@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Guess Game for Hieu</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/guessGame.css" type="text/css">
+
+</head>
+<body>
+		<div id="question">
+			<!-- guessGame.js puts a <p/> element here
+			with the question that is being asked -->
+		</div>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="usrGuess center-block">
+
+			<!-- Input box and submit button -->
+			<form action="#" class="guessForm">
+            
+              <input id='guess' name='hieuGuess' type='number' placeholder='Guess' tabindex='1' value required><br/>
+                      
+              <button id="getGuess" type="submit" class="btn btn-block">Submit Guess</button>
+
+			</form>
+			
+				<div >
+					<button id="playAgain" class="btn btn-block">Play again</button>
+				</div>
+
+        	</div>
+		</div>
+	</div>
+        
+	<div>
+		<ul class="correctAnswers">
+			<li>So far you've got: ...NOTHING! COME ON!</li>
+		</ul>
+		<!-- guessGame.js will put all the ones you've gotten right here -->
+		
+	</div>
+        <div>
+          <ul id="answers">
+          	<!-- guessGame.js puts <li/> elements here
+			with results of the guesses -->
+          </ul>
+        </div>
+
+
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/handlebars.js"></script>
+    <script type="text/javascript" src="js/guessGame.js"></script>
+</body>
+</html>
